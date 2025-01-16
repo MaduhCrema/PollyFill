@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Polly Fill com scanline</title>
+</head>
+
+<body>
+    <h1>PREENCHIMENTO DE POLIGONOS</h1>
+    <canvas id="myCanvas" width="1400" height="500" onmousedown="handleCanvasClick(event)" oncontextmenu="return false;"></canvas>
+    <br>
+    <label for="color0">Cor do Poligono</label>
+    <input type="color" id="color0" value="#0000">
+    <label for="selectTriangle">Criar poligono</label>
+    <button onclick="addPolygon()">criar</button>
+    <br>
+    <label for="selectTriangle">Selecionar Poligono:</label>
+    <select id="selectTriangle" onchange="selectPolygon()"></select>
+    <br>
+    <input type="color" id="edgeColor" name="edgeColor" value="#ffff00">
+    <button onclick="changecolor()">Mudar cor do Poligono/Aresta</button>
+    <br>
+    <button onclick="cleanOne()">Apagar Poligono selecionado</button>
+    <br>
+    <button onclick="cleanAll()">Apagar todos os Poligonos</button>
+    <script src="fillpoly.js"></script>
+</body>
+
+</html>
