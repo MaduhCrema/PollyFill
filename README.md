@@ -18,6 +18,5 @@ Para cada polígono convexo:
  * Apenas os pixels visíveis (com menor valor z) são coloridos
  * O processo é otimizado usando técnicas de varredura por linha (scanlines)
 
-Inline-style: 
-![alt text](https://github.com/MaduhCrema/PollyFill/blob/master/GravaodeTela2025-05-05135817-ezgif.com-video-to-gif-converter.gif")
+![alt text](https://github.com/MaduhCrema/PollyFill/blob/master/GravaodeTela2025-05-05135817-ezgif.com-video-to-gif-converter.gif)
 
